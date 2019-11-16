@@ -12,7 +12,7 @@
 */
 
 /** @type {import('@adonisjs/lucid/src/Factory')} */
-const Factory = use('Factory');
+/* const Factory = use('Factory');
 
 Factory.blueprint('App/Models/User', (faker) => {
   return {
@@ -23,4 +23,4 @@ Factory.blueprint('App/Models/User', (faker) => {
     confirmation_token: null,
     is_active: true
   }
-});
+}); */
