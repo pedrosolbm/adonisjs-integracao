@@ -18,6 +18,8 @@ const Route = use('Route')
 
 Route.on('/').render('home').as('home');
 
+Route.get('dashboard', 'Auth/TaskController.showTaskListForm'); //requere as tarefas do usuários
+
 Route.get('register', 'Auth/RegisterController.showRegisterForm');
 Route.post('register','Auth/RegisterController.register').as('register');
 
