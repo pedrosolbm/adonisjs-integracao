@@ -1,6 +1,6 @@
-# Adonis fullstack application
+# Autenticação AdonisJs
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+Projeto final de integração. Já vem com as seguintes dependencias instaladas
 
 1. Bodyparser
 2. Session
@@ -12,20 +12,10 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 8. Migrations and seeds
 
 ## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick
-```
-
-or manually clone the repo and then run `npm install`.
-
+1. `npm install`
+2. Criar banco de dados manualmente
+3. Configure o `.env` com as informações de conexão do seu banco.
+4. `adonis serve --run`
 
 ### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+1. Criar as tabelas `adonis migration:run`
