@@ -39,7 +39,7 @@ class RegisterController {
       password: request.input('password'),
       confirmation_token: randomString({
         lenght: 40
-      })
+      }),
     });
     //manda o email de confirmacao
     await Mail.send('auth.emails.confirm_email', user.toJSON(), message => {
