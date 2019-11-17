@@ -18,7 +18,7 @@ const Route = use('Route')
 
 Route.on('/').render('home').as('home').middleware(['auth']);
 
-Route.get('dashboard', 'TaskController.showTaskListForm').middleware(['visitor']); //requere as tarefas do usuários
+Route.get('dashboard', 'TaskController.showTaskListForm').middleware(['auth']); //requere as tarefas do usuários
 Route.post('dashboard','TaskController.createTask');
 
 Route.get('register', 'Auth/RegisterController.showRegisterForm').middleware(['authenticated']);
