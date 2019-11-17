@@ -14,8 +14,8 @@ Projeto final de integração. Já vem com as seguintes dependencias instaladas
 ## Setup
 1. `npm install`
 2. Criar banco de dados manualmente
-3. Configure o `.env` com as informações de conexão do seu banco.
+3. Configure o `.env` com as informações de conexão do seu banco e configurações do seu servidor SMTP(Se não trocar, não recebe o email de confirmação)
 4. `adonis serve --run`
 
-### Migrations
+## Migrations
 1. Criar as tabelas `adonis migration:run`
