@@ -3,7 +3,7 @@
 @section('content')
   <div class="columns">
     <div class="column is-4 is-offset-4">
-      <h2 class="title has-text-centered">Login</h2>
+      <h2 class="title has-text-centered"style="color:white">Login</h2>
 
       @include('includes.notification')
 
@@ -11,7 +11,7 @@
         {{ csrfField() }}
 
         <div class="field">
-          <label class="label">Email</label>
+          <label class="label"style="color:white">Email</label>
 
           <div class="control">
             <input
@@ -24,7 +24,7 @@
         </div>
 
         <div class="field">
-          <label class="label">Senha</label>
+          <label class="label" style="color:white">Senha</label>
 
           <div class="control">
             <input
@@ -38,7 +38,7 @@
 
         <div class="field">
           <label class="checkbox">
-            <input type="checkbox" name="remember">
+            <input type="checkbox" name="remember"style="color:white;">
             Lembrar de mim
           </label>
         </div>
@@ -49,7 +49,7 @@
       </form>
 
       <p class="has-text-centered" style="margin-top: 10px">
-        <a href="/password/reset">Forgot password?</a>
+        <a href="/password/reset"style="color:white">Esqueceu a senha?</a>
       </p>
     </div>
   </div>
