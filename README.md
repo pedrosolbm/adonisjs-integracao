@@ -1,6 +1,6 @@
 # Autenticação AdonisJs
 
-Projeto final de integração. Já vem com as seguintes dependencias instaladas
+Projeto final de integração. Utiliza as seguintes dependencias
 
 1. Bodyparser
 2. Session
